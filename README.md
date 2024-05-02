@@ -21,4 +21,6 @@ Tuning PID parameters (Kp, Ki, Kd) for desired speed regulation.
 Comparison of PID control with PPC in terms of performance and stability.
 
 ## Results
+<img src="images/PID.png" alt="Image Description" width="400"/>
+<img src="images/PPC.png" alt="Image Description" width="400"/>
 
