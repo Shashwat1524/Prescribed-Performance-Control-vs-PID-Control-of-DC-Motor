@@ -11,14 +11,6 @@ MD30CR2 Motor Driver (30A): This motor driver is used to interface the Teensy wi
 Arduino IDE: Install the Arduino IDE on your development machine.
 Teensyduino Add-on: Install the Teensyduino add-on for Arduino IDE to enable programming of the Teensy board.
 
-## Control Algorithms
-### Prescribed Performance Control (PPC)
-
-### Proportional-Integral-Derivative (PID) Control
-Description of the PID control algorithm implementation.
-Tuning PID parameters (Kp, Ki, Kd) for desired speed regulation.
-Comparison of PID control with PPC in terms of performance and stability.
-
 ## Results
 ### Speed Regulation Comparison
 - **Prescribed Performance Control (PPC) vs. Proportional-Integral-Derivative (PID) Control:**
