@@ -10,7 +10,6 @@ MD30CR2 Motor Driver (30A): This motor driver is used to interface the Teensy wi
 ## Software Setup
 Arduino IDE: Install the Arduino IDE on your development machine.
 Teensyduino Add-on: Install the Teensyduino add-on for Arduino IDE to enable programming of the Teensy board.
-**Code: Upload the provided Arduino code (PPC_vs_PID_Control_DC_Motor.ino) to the Teensy board using the Arduino IDE.**
 
 ## Control Algorithms
 ### Prescribed Performance Control (PPC)
