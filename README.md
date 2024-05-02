@@ -20,6 +20,23 @@ Tuning PID parameters (Kp, Ki, Kd) for desired speed regulation.
 Comparison of PID control with PPC in terms of performance and stability.
 
 ## Results
+### Speed Regulation Comparison
+- **Prescribed Performance Control (PPC) vs. Proportional-Integral-Derivative (PID) Control:**
+  - Observed around 2 seconds gain in reaching target RPM through PPC compared to PID.
+  - Further analysis of speed regulation, response time, overshoot, and settling time is detailed below.
+
+### RPM vs. Time Plots
+Below are the RPM vs. Time plots for both PID and PPC controls:
+
+![PID Control](images/PID.png)
+Fig 1. PID Control: RPM vs. Time
+
+![PPC Control](images/PPC.png)
+Fig 2. PPC Control: RPM vs. Time
+
+
 <img src="images/PID.png" alt="Image Description" width="400"/>
+Fig 1. PID Control :RPM vs Time
 <img src="images/PPC.png" alt="Image Description" width="400"/>
+Fig 2. PPC Control: RPM vs Time
 
