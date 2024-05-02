@@ -28,15 +28,13 @@ Comparison of PID control with PPC in terms of performance and stability.
 ### RPM vs. Time Plots
 Below are the RPM vs. Time plots for both PID and PPC controls:
 
-![PID Control](images/PID.png)
-Fig 1. PID Control: RPM vs. Time
+<div style="text-align:center">
+  <img src="images/PID.png" alt="PID Control" width="600"/><br/>
+  Fig 1. PID Control: RPM vs. Time
+</div>
 
-![PPC Control](images/PPC.png)
-Fig 2. PPC Control: RPM vs. Time
-
-
-<img src="images/PID.png" alt="Image Description" width="400"/>
-Fig 1. PID Control :RPM vs Time
-<img src="images/PPC.png" alt="Image Description" width="400"/>
-Fig 2. PPC Control: RPM vs Time
+<div style="text-align:center">
+  <img src="images/PPC.png" alt="PPC Control" width="600"/><br/>
+  Fig 2. PPC Control: RPM vs. Time
+</div>
 
