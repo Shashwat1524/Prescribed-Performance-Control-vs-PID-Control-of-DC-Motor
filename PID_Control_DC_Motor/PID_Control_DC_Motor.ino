@@ -6,12 +6,16 @@ int32_t CPR = 3172;
 const int PWM_PIN = 23;
 IntervalTimer speedTimer;
 float rpm = 0;
-float target_rpm = 150;
+float target_rpm = 100;
 float kp = 1.8;  // Proportional gain
 float ki = 0.18; // Integral gain
 float kd = 0.01; // Derivative gain
 float integral = 0;
 float prev_error = 0;
+bool case1=true;
+bool case2=true;
+unsigned long targetChangeTime = 0;
+const unsigned long delayTime = 9000; 
 
 void setup() {
   Serial.begin(115200);
@@ -34,6 +38,19 @@ void loop() {
   Serial.print(millis()/1000.0); // Print current time in milliseconds
   Serial.print(",");
   Serial.println(rpm); // Print RPM
+  if(rpm>100 && case1==true && millis() - targetChangeTime >= delayTime)
+        {
+          target_rpm=150;
+          case1=false;
+          targetChangeTime = millis();
+
+        }
+        if(rpm>150 && case2==true && millis() - targetChangeTime >= delayTime)
+        {
+          target_rpm=200;
+          case2=false;
+          targetChangeTime = millis();
+        }
 
   delay(100);
 }
