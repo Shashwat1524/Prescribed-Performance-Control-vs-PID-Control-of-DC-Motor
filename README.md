@@ -6,7 +6,10 @@ This project explores the implementation and comparison of two control algorithm
 ## Hardware Setup
 Teensy 4.1 Microcontroller: The Teensy 4.1 board serves as the control unit for executing the control algorithms and generating PWM signals to control the motor speed.
 MD30CR2 Motor Driver (30A): This motor driver is used to interface the Teensy with the DC motor, providing the necessary power and control signals.
-
+<div style="text-align:center">
+  <img src="images/setup.jpeg" alt="Hardware Setup" width="600"/><br/>
+  Fig 1. Hardware Setup
+</div>
 ## Software Setup
 Arduino IDE: Install the Arduino IDE on your development machine.
 Teensyduino Add-on: Install the Teensyduino add-on for Arduino IDE to enable programming of the Teensy board.
@@ -22,11 +25,11 @@ Below are the RPM vs. Time plots for both PID and PPC controls:
 
 <div style="text-align:center">
   <img src="images/PID.png" alt="PID Control" width="600"/><br/>
-  Fig 1. PID Control: RPM vs. Time
+  Fig 2. PID Control: RPM vs. Time
 </div>
 
 <div style="text-align:center">
   <img src="images/PPC.png" alt="PPC Control" width="600"/><br/>
-  Fig 2. PPC Control: RPM vs. Time
+  Fig 3. PPC Control: RPM vs. Time
 </div>
 
