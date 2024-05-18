@@ -10,6 +10,7 @@ MD30CR2 Motor Driver (30A): This motor driver is used to interface the Teensy wi
   <img src="images/Hardware_Setup.png" alt="Hardware Setup" width="600"/><br/>
   Fig 1. Hardware Setup
 </div>
+
 ## Software Setup
 Arduino IDE: Install the Arduino IDE on your development machine.
 Teensyduino Add-on: Install the Teensyduino add-on for Arduino IDE to enable programming of the Teensy board.
