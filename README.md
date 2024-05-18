@@ -7,7 +7,7 @@ This project explores the implementation and comparison of two control algorithm
 Teensy 4.1 Microcontroller: The Teensy 4.1 board serves as the control unit for executing the control algorithms and generating PWM signals to control the motor speed.
 MD30CR2 Motor Driver (30A): This motor driver is used to interface the Teensy with the DC motor, providing the necessary power and control signals.
 <div style="text-align:center">
-  <img src="images/setup.jpeg" alt="Hardware Setup" width="600"/><br/>
+  <img src="images/Hardware_Setup.png" alt="Hardware Setup" width="600"/><br/>
   Fig 1. Hardware Setup
 </div>
 ## Software Setup
